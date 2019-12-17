@@ -8,7 +8,7 @@
       android:strokeAlpha="1"
       android:strokeLineJoin="round"
       android:strokeWidth="1"
-      android:fillColor="#5b6ddb"
+      android:fillColor="#977e6e"
       android:strokeColor="#00000000"
       android:fillType="nonZero"
       android:fillAlpha="1"
@@ -19,7 +19,7 @@
       android:strokeLineJoin="miter"
       android:strokeWidth="8"
       android:fillColor="#00000000"
-      android:strokeColor="#5b6ddb"
+      android:strokeColor="#977e6e"
       android:fillType="evenOdd"
       android:strokeLineCap="butt"/>
 </vector>
