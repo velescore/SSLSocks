@@ -1,4 +1,4 @@
-package link.infra.sslsocks.service;
+package link.infra.velesStunnel.service;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,17 +12,17 @@ import java.io.InterruptedIOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import link.infra.sslsocks.BuildConfig;
-import link.infra.sslsocks.R;
+import link.infra.velesStunnel.BuildConfig;
+import link.infra.velesStunnel.R;
 import okio.BufferedSink;
 import okio.BufferedSource;
 import okio.Okio;
 
-import static link.infra.sslsocks.Constants.CONFIG;
-import static link.infra.sslsocks.Constants.DEF_CONFIG;
-import static link.infra.sslsocks.Constants.DEF_CONFIG_PID;
-import static link.infra.sslsocks.Constants.EXECUTABLE;
-import static link.infra.sslsocks.Constants.PID;
+import static link.infra.velesStunnel.Constants.CONFIG;
+import static link.infra.velesStunnel.Constants.DEF_CONFIG;
+import static link.infra.velesStunnel.Constants.DEF_CONFIG_PID;
+import static link.infra.velesStunnel.Constants.EXECUTABLE;
+import static link.infra.velesStunnel.Constants.PID;
 
 public class StunnelProcessManager {
 

@@ -1,4 +1,4 @@
-package link.infra.sslsocks.gui.keymgmt;
+package link.infra.velesStunnel.gui.keymgmt;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import link.infra.sslsocks.R;
+import link.infra.velesStunnel.R;
 
 /**
  * A fragment representing the key list

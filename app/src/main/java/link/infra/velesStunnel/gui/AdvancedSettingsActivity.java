@@ -1,4 +1,4 @@
-package link.infra.sslsocks.gui;
+package link.infra.velesStunnel.gui;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -18,9 +18,9 @@ import androidx.preference.PreferenceFragmentCompat;
 
 import java.util.Objects;
 
-import link.infra.sslsocks.BuildConfig;
-import link.infra.sslsocks.R;
-import link.infra.sslsocks.service.StunnelProcessManager;
+import link.infra.velesStunnel.BuildConfig;
+import link.infra.velesStunnel.R;
+import link.infra.velesStunnel.service.StunnelProcessManager;
 
 public class AdvancedSettingsActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package link.infra.sslsocks.gui;
+package link.infra.velesStunnel.gui;
 
 import android.app.Activity;
 import android.content.ComponentName;

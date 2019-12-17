@@ -1,4 +1,4 @@
-package link.infra.sslsocks;
+package link.infra.velesStunnel;
 
 import org.junit.Test;
 

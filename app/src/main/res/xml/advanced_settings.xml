@@ -1,4 +1,5 @@
-<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <PreferenceCategory
         app:key="general_category"
         app:title="@string/pref_header_general">
@@ -8,8 +9,8 @@
             app:title="@string/pref_title_start_on_boot" />
         <EditTextPreference
             app:key="open_vpn_profile"
-            app:title="@string/pref_title_open_vpn_profile"
-            app:summary="@string/pref_desc_open_vpn_profile"/>
+            app:summary="@string/pref_desc_open_vpn_profile"
+            app:title="@string/pref_title_open_vpn_profile" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -20,21 +21,21 @@
             app:title="@string/pref_title_version" />
         <Preference
             app:key="stunnelVersion"
-            app:title="@string/pref_title_stunnel_version"
-            app:summary="@string/pref_desc_stunnel_version_loading"/>
+            app:summary="@string/pref_desc_stunnel_version_loading"
+            app:title="@string/pref_title_stunnel_version" />
     </PreferenceCategory>
 
     <PreferenceCategory
         app:key="oss_category"
         app:title="@string/pref_header_oss">
         <Preference
-            app:key="licenseSSLSocks"
-            app:title="@string/app_name_full"
-            app:summary="@string/pref_oss_sslsocks_license"/>
+            app:key="licensevelesStunnel"
+            app:summary="@string/pref_oss_velesStunnel_license"
+            app:title="@string/app_name_full" />
         <Preference
             app:key="licenseStunnel"
-            app:title="@string/pref_oss_stunnel"
-            app:summary="@string/pref_oss_stunnel_license"/>
+            app:summary="@string/pref_oss_stunnel_license"
+            app:title="@string/pref_oss_stunnel" />
     </PreferenceCategory>
 
 </androidx.preference.PreferenceScreen>

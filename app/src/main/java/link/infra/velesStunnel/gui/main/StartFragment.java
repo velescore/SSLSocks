@@ -1,4 +1,4 @@
-package link.infra.sslsocks.gui.main;
+package link.infra.velesStunnel.gui.main;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,8 +15,8 @@ import androidx.lifecycle.Observer;
 
 import java.util.Objects;
 
-import link.infra.sslsocks.R;
-import link.infra.sslsocks.service.StunnelIntentService;
+import link.infra.velesStunnel.R;
+import link.infra.velesStunnel.service.StunnelIntentService;
 
 
 /**

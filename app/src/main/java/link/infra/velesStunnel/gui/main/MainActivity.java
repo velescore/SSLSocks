@@ -1,4 +1,4 @@
-package link.infra.sslsocks.gui.main;
+package link.infra.velesStunnel.gui.main;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -24,16 +24,16 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.lang.ref.WeakReference;
 
-import link.infra.sslsocks.R;
-import link.infra.sslsocks.gui.AdvancedSettingsActivity;
-import link.infra.sslsocks.gui.OpenVPNIntegrationHandler;
-import link.infra.sslsocks.gui.keymgmt.KeyEditActivity;
-import link.infra.sslsocks.gui.keymgmt.KeyFragment;
-import link.infra.sslsocks.gui.keymgmt.KeyRecyclerViewAdapter;
-import link.infra.sslsocks.service.StunnelIntentService;
-import link.infra.sslsocks.service.StunnelProcessManager;
+import link.infra.velesStunnel.R;
+import link.infra.velesStunnel.gui.AdvancedSettingsActivity;
+import link.infra.velesStunnel.gui.OpenVPNIntegrationHandler;
+import link.infra.velesStunnel.gui.keymgmt.KeyEditActivity;
+import link.infra.velesStunnel.gui.keymgmt.KeyFragment;
+import link.infra.velesStunnel.gui.keymgmt.KeyRecyclerViewAdapter;
+import link.infra.velesStunnel.service.StunnelIntentService;
+import link.infra.velesStunnel.service.StunnelProcessManager;
 
-import static link.infra.sslsocks.gui.keymgmt.KeyEditActivity.ARG_EXISTING_FILE_NAME;
+import static link.infra.velesStunnel.gui.keymgmt.KeyEditActivity.ARG_EXISTING_FILE_NAME;
 
 public class MainActivity extends AppCompatActivity implements KeyFragment.OnListFragmentInteractionListener {
 

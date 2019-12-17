@@ -1,4 +1,4 @@
-package link.infra.sslsocks.service;
+package link.infra.velesStunnel.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

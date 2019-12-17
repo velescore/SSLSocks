@@ -1,4 +1,4 @@
-package link.infra.sslsocks.gui;
+package link.infra.velesStunnel.gui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,9 +6,12 @@ import android.os.Bundle;
 
 import androidx.preference.PreferenceManager;
 
-import link.infra.sslsocks.service.StunnelIntentService;
+import link.infra.velesStunnel.service.StunnelIntentService;
 
-public class ServiceShortcutActivity extends Activity {
+/**
+ * Other applications can launch this activity to stop the service
+ */
+public class ServiceStopActivity extends Activity {
 	OpenVPNIntegrationHandler openVPNIntegrationHandler;
 
 	@Override
@@ -21,11 +24,13 @@ public class ServiceShortcutActivity extends Activity {
 			openVPNIntegrationHandler = new OpenVPNIntegrationHandler(this, new Runnable() {
 				@Override
 				public void run() {
-					ServiceShortcutActivity.this.finish();
+					ServiceStopActivity.this.finish();
 				}
-			}, openVpnProfile, false);
+			}, openVpnProfile, true);
 			openVPNIntegrationHandler.bind();
 		}
+		Intent intentStop = new Intent(this, StunnelIntentService.class);
+		stopService(intentStop);
 		if (openVPNIntegrationHandler == null) {
 			finish();
 		}
@@ -40,7 +45,7 @@ public class ServiceShortcutActivity extends Activity {
 			}
 		} else if (requestCode == OpenVPNIntegrationHandler.VPN_PERMISSION_REQUEST) {
 			if (resultCode == RESULT_OK && openVPNIntegrationHandler != null) {
-				openVPNIntegrationHandler.connectProfile();
+				openVPNIntegrationHandler.disconnect();
 			}
 		}
 	}

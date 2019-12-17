@@ -1,4 +1,4 @@
-package link.infra.sslsocks.gui.main;
+package link.infra.velesStunnel.gui.main;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -12,8 +12,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 
-import link.infra.sslsocks.R;
-import link.infra.sslsocks.service.StunnelIntentService;
+import link.infra.velesStunnel.R;
+import link.infra.velesStunnel.service.StunnelIntentService;
 
 
 /**

@@ -70,7 +70,7 @@
     <string name="pref_desc_stunnel_version_loading">Loading…</string>
 
     <string name="pref_header_oss">Open Source Licenses</string>
-    <string name="pref_oss_sslsocks_license">MIT (effectively GPL due to distribution with Stunnel)</string>
+    <string name="pref_oss_velesStunnel_license">MIT (effectively GPL due to distribution with Stunnel)</string>
     <string name="pref_oss_stunnel">Stunnel</string>
     <string name="pref_oss_stunnel_license">GPL (with linking exception)</string>
 

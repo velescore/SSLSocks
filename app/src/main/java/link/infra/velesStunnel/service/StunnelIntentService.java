@@ -1,4 +1,4 @@
-package link.infra.sslsocks.service;
+package link.infra.velesStunnel.service;
 
 import android.app.IntentService;
 import android.app.NotificationManager;
@@ -12,19 +12,19 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import link.infra.sslsocks.R;
-import link.infra.sslsocks.gui.main.MainActivity;
+import link.infra.velesStunnel.R;
+import link.infra.velesStunnel.gui.main.MainActivity;
 
 /**
  * An {@link IntentService} subclass for handling asynchronous task requests in
  * a service on a separate handler thread.
  */
 public class StunnelIntentService extends IntentService {
-	private static final String ACTION_STARTNOVPN = "link.infra.sslsocks.service.action.STARTNOVPN";
-	private static final String ACTION_RESUMEACTIVITY = "link.infra.sslsocks.service.action.RESUMEACTIVITY";
+	private static final String ACTION_STARTNOVPN = "link.infra.velesStunnel.service.action.STARTNOVPN";
+	private static final String ACTION_RESUMEACTIVITY = "link.infra.velesStunnel.service.action.RESUMEACTIVITY";
 
 	private static final int NOTIFICATION_ID = 1;
-	private static final String ACTION_STOP = "link.infra.sslsocks.service.action.STOP";
+	private static final String ACTION_STOP = "link.infra.velesStunnel.service.action.STOP";
 
 	private static final MutableLiveData<Boolean> privateIsRunning = new MutableLiveData<>();
 	public static final LiveData<Boolean> isRunning = privateIsRunning;

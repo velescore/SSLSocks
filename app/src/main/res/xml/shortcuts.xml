@@ -10,8 +10,8 @@
         tools:ignore="UnusedAttribute">
         <intent
             android:action="android.intent.action.MAIN"
-            android:targetPackage="link.infra.sslsocks"
-            android:targetClass="link.infra.sslsocks.gui.ServiceShortcutActivity" />
+            android:targetPackage="link.infra.velesStunnel"
+            android:targetClass="link.infra.velesStunnel.gui.ServiceShortcutActivity" />
     </shortcut>
     <!-- Specify more shortcuts here. -->
 </shortcuts>

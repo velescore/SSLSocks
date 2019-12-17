@@ -1,4 +1,4 @@
-package link.infra.sslsocks.service;
+package link.infra.velesStunnel.service;
 
 import android.app.IntentService;
 import android.content.BroadcastReceiver;
@@ -8,7 +8,7 @@ import android.content.Intent;
 import androidx.annotation.Nullable;
 import androidx.preference.PreferenceManager;
 
-import link.infra.sslsocks.gui.OpenVPNIntegrationHandler;
+import link.infra.velesStunnel.gui.OpenVPNIntegrationHandler;
 
 public class ServiceStopReceiver extends BroadcastReceiver {
 	@Override

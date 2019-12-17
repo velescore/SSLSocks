@@ -1,4 +1,4 @@
-package link.infra.sslsocks;
+package link.infra.velesStunnel;
 
 public class Constants {
 	public static final String EXECUTABLE = "stunnel";

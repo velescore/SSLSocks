@@ -1,4 +1,4 @@
-package link.infra.sslsocks.gui.keymgmt;
+package link.infra.velesStunnel.gui.keymgmt;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +9,7 @@ import java.util.List;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import link.infra.sslsocks.R;
+import link.infra.velesStunnel.R;
 
 public class KeyRecyclerViewAdapter extends RecyclerView.Adapter<KeyRecyclerViewAdapter.ViewHolder> {
 

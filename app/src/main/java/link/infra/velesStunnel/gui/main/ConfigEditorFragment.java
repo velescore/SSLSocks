@@ -1,4 +1,4 @@
-package link.infra.sslsocks.gui.main;
+package link.infra.velesStunnel.gui.main;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -19,14 +19,14 @@ import java.lang.ref.WeakReference;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import link.infra.sslsocks.R;
-import link.infra.sslsocks.service.StunnelProcessManager;
+import link.infra.velesStunnel.R;
+import link.infra.velesStunnel.service.StunnelProcessManager;
 import okio.BufferedSink;
 import okio.BufferedSource;
 import okio.Okio;
 
-import static link.infra.sslsocks.Constants.CONFIG;
-import static link.infra.sslsocks.Constants.PSKSECRETS;
+import static link.infra.velesStunnel.Constants.CONFIG;
+import static link.infra.velesStunnel.Constants.PSKSECRETS;
 
 /**
  * A fragment to edit text based configuration files

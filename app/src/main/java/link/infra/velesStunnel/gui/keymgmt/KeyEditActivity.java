@@ -1,4 +1,4 @@
-package link.infra.sslsocks.gui.keymgmt;
+package link.infra.velesStunnel.gui.keymgmt;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -21,7 +21,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Objects;
 
-import link.infra.sslsocks.R;
+import link.infra.velesStunnel.R;
 import okio.BufferedSink;
 import okio.BufferedSource;
 import okio.Okio;
