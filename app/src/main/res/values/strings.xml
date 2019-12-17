@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"></string>
+    <string name="app_name">Veles Stunnel</string>
     <string name="app_name_full">Veles Stunnel Client</string>
 
     <!-- Actions -->
