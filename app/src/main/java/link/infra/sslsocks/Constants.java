@@ -13,6 +13,7 @@ public class Constants {
 					"pid = ";
 
 	public static final String DEF_CONFIG =
+			"\n" +
 					"[veles-openvpn]\n" +
 					"client = yes\n" +
 					"accept = 127.0.0.1:21337\n" +
