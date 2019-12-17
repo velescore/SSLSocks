@@ -20,6 +20,7 @@ import okio.Okio;
 
 import static link.infra.sslsocks.Constants.CONFIG;
 import static link.infra.sslsocks.Constants.DEF_CONFIG;
+import static link.infra.sslsocks.Constants.DEF_CONFIG_PID;
 import static link.infra.sslsocks.Constants.EXECUTABLE;
 import static link.infra.sslsocks.Constants.PID;
 
@@ -73,10 +74,11 @@ public class StunnelProcessManager {
 		configFile.getParentFile().mkdir();
 
 		try (BufferedSink out = Okio.buffer(Okio.sink(configFile))) {
-			out.writeUtf8(DEF_CONFIG);
+			out.writeUtf8(DEF_CONFIG_PID);
 			out.writeUtf8(context.getFilesDir().getPath());
 			out.writeUtf8("/");
 			out.writeUtf8(PID);
+			out.writeUtf8(DEF_CONFIG);
 			return true;
 		} catch (IOException e) {
 			Log.e(TAG, "Failed config file creation: ", e);
