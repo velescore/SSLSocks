@@ -23,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="4dp"
+        android:background="@drawable/bg_pattern"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:orientation="vertical">
             <com.google.android.material.button.MaterialButton
@@ -35,8 +36,11 @@
                 android:visibility="gone"/>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
+                android:textColor="#ffffff"
                 android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                style="@style/TextInputLayoutStyle"
+                app:boxStrokeColor="#ffffff"
+                app:boxStrokeWidth="1dp"
                 android:hint="@string/file_name">
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/file_name"
@@ -44,16 +48,21 @@
                     android:inputType="textNoSuggestions"
                     android:importantForAutofill="no"
                     android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
                     tools:ignore="UnusedAttribute" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
+                android:textColor="#ffffff"
                 android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                style="@style/TextInputLayoutStyle"
+                app:boxStrokeColor="#ffffff"
+                app:boxStrokeWidth="1dp"
                 android:hint="@string/file_contents">
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/file_contents"
                     android:layout_width="match_parent"
+                    android:textColor="#ffffff"
                     android:inputType="textMultiLine|textNoSuggestions"
                     android:importantForAutofill="no"
                     android:layout_height="match_parent"

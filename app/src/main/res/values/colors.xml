@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#A5C7FF</color>
-    <color name="overColor">#FFFFFF</color>
+    <color name="colorPrimary">#111111</color>
+    <color name="colorPrimaryDark">#111111</color>
+    <color name="colorAccent">#977e6e</color>
+    <color name="overColor">#977e6e</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
 </resources>

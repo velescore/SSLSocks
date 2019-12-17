@@ -1,5 +1,4 @@
 <androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
-
     <PreferenceCategory
         app:key="general_category"
         app:title="@string/pref_header_general">
@@ -30,7 +29,7 @@
         app:title="@string/pref_header_oss">
         <Preference
             app:key="licenseSSLSocks"
-            app:title="@string/app_name"
+            app:title="@string/app_name_full"
             app:summary="@string/pref_oss_sslsocks_license"/>
         <Preference
             app:key="licenseStunnel"
