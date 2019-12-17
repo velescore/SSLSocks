@@ -13,11 +13,13 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:textColor="@color/cardview_light_background"
         app:layoutManager="LinearLayoutManager"
         tools:context=".gui.main.KeyFragment"
         tools:listitem="@layout/fragment_key"/>
 
     <TextView
+        android:textColor="@color/cardview_light_background"
         android:id="@+id/empty_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

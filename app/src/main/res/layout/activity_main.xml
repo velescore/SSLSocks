@@ -19,11 +19,18 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/veles"
+                    android:layout_gravity="center" />
         </androidx.appcompat.widget.Toolbar>
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
+            android:background="#111111"
+            app:tabTextColor="#ffffff"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -31,6 +38,7 @@
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/container"
+        android:background="@drawable/bg_pattern"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />

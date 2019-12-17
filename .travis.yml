@@ -20,7 +20,7 @@ deploy:
   skip_cleanup: true
   draft: true
   on:
-    repo: comp500/SSLSocks
+    repo: mdfkbtc/veles-android-stunnel
     tags: true
 before_install:
 - openssl aes-256-cbc -K $encrypted_97db662e41ec_key -iv $encrypted_97db662e41ec_iv

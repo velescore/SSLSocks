@@ -7,11 +7,13 @@
     android:orientation="vertical">
 
     <Spinner
+        android:visibility="gone"
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"/>
     <EditText
+        android:textColor="@color/cardview_light_background"
         android:id="@+id/editText"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
